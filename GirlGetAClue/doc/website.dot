@@ -1,0 +1,50 @@
+digraph website {
+	node [fontname="HelveticaNeue", shape=circle, width=2, fixedsize=true];
+	edge [fontname="Webdings"];
+	internet [shape=none, label="Internet"];
+	register [label="/register"];
+	home [label="/home"];
+	finishRegistration [label="/finishregister"];
+	resetPassword [label="/resetpassword"];
+	login [label="/login"];
+	profile [label="/profile"];
+	pendingLogin [label="/pendinglogin"];
+	anySecure [label="/*"];
+	changePassword [label="/changepassword"];
+	changeEmail [label="/changeemail"];
+	finishChangeEmail [label="/finishchangeemail"];
+	finishResetPassword [label="/finishresetpassword"];
+	loginLocked [label="/loginlocked"];
+	deleteLogin [style=dashed];
+	registerMessage [style=dashed];
+	node [shape=note, height=1, fixedsize=true];
+	resetPasswordEmail;
+	registerEmail;
+	changeEmailEmail;
+
+	subgraph {
+		pendingLogin -> anySecure [label=""]; 
+	}
+
+	subgraph {
+		internet -> home;
+		home -> login;
+		login -> register;
+		login -> resetPassword;
+		login -> loginLocked;
+		loginLocked -> registerEmail [style=dashed];
+		home -> register;
+		register -> registerEmail [style=dashed];
+		registerEmail -> finishRegistration;
+		register -> registerMessage -> home;
+		finishRegistration -> home;
+		home -> profile [label=""];
+		profile -> changeEmail [label=""];
+		profile -> deleteLogin [label=""];
+		changeEmail -> changeEmailEmail [style=dashed];
+		changeEmailEmail -> finishChangeEmail;
+		profile -> changePassword [label=""];
+		resetPassword -> resetPasswordEmail [style=dashed];
+		resetPasswordEmail -> finishResetPassword -> home;
+	}
+}

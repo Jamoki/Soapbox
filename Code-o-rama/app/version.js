@@ -1,0 +1,1 @@
+angular.module("app.version", []).constant("appVersion", "v1.0.20414.1");

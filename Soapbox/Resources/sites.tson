@@ -1,0 +1,16 @@
+﻿# This file contains a list of your Soapbox blogs.
+#
+# It is in [TSON](http://tsonspec.org), a simplified JSON
+# with comments and relaxed quoting rules.
+# 
+sites: 
+[
+	{
+		shortName: mbs,
+		name: My Blog Site,
+		rootUrl: http://myblogsite.org,
+		userName: mynamehere,
+# The passord is optional.  If not given you will get prompted for it.
+		password: mypasswordhere
+	}
+]

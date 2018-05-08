@@ -1,0 +1,1 @@
+angular.module("app.version", []).constant("soapboxApiVersion", "v1.0.20210.2");

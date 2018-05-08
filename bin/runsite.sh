@@ -1,0 +1,2 @@
+cd ../Website
+gulp serve

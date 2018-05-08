@@ -1,0 +1,97 @@
+{
+  "name": "GirlGetAClue",
+  "version": "1.0.0",
+  "main": "app/app.js",
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "angular": "~1.2.16",
+    "angular-route": "~1.2.16",
+    "angulartics": "~0.15.18",
+    "bootswatch": "v3.2.0+1",
+    "angular-bootstrap": "~0.11.0",
+    "angular-touch": "~1.2.24",
+    "angular-sanitize": "~1.3.8",
+    "angular-deckgrid": "~0.5.0"
+  },
+  "overrides": {
+    "angular": {
+      "main": {
+        "normal": [
+          "angular.js"
+        ],
+        "minified": null
+      }
+    },
+    "angular-route": {
+      "main": {
+        "normal": [
+          "angular-route.js"
+        ],
+        "minified": null
+      }
+    },
+    "angular-touch": {
+      "main": {
+        "normal": [
+          "angular-touch.js"
+        ],
+        "minified": null
+      }
+    },
+    "angular-sanitize": {
+      "main": {
+        "normal": [
+          "angular-sanitize.js"
+        ],
+        "minified": null
+      }
+    },
+    "angulartics": {
+      "main": {
+        "normal": [
+          "src/angulartics.js",
+          "src/angulartics-ga.js"
+        ],
+        "minified": [
+          "dist/angulartics.min.js",
+          "dist/angulartics-ga.min.js"
+        ]
+      }
+    },
+    "angular-bootstrap": {
+      "main": {
+        "normal": [
+          "ui-bootstrap-tpls.js"
+        ],
+        "minified": [
+          "ui-bootstrap-tpls.min.js"
+        ]
+      }
+    },
+    "angular-deckgrid": {
+      "main": [
+        "angular-deckgrid.js"
+      ]
+    },
+    "bootstrap": {
+      "ignore": true
+    },
+    "bootswatch": {
+      "main": [
+        "fonts/glyphicons-halflings-regular.eot",
+        "fonts/glyphicons-halflings-regular.ttf",
+        "fonts/glyphicons-halflings-regular.svg",
+        "fonts/glyphicons-halflings-regular.woff"
+      ]
+    },
+    "jquery": {
+      "ignore": true
+    },
+    "jquery-waypoints": {
+      "ignore": true
+    }
+  },
+  "resolutions": {
+    "angular": "1.3.13"
+  }
+}

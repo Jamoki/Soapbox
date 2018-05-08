@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Version>
+  <Files>
+    <File>makefile</File>
+    <File>Api/Api.ServiceInterface/Properties/AssemblyInfo.cs</File>
+    <File>Api/Api.ServiceModel/Properties/AssemblyInfo.cs</File>
+    <File>Api/ApiService/Properties/AssemblyInfo.cs</File>
+    <File>Api/ApiService/Scripts/soapbox-api-v${Major}.sh</File>
+    <File>Api/ApiService/Scripts/soapbox-api-v${Major}.conf</File>
+    <File>Api/ApiService/app.v${Major}-${Minor}-debug.config</File>
+    <File>Api/ApiService/app.v${Major}-${Minor}-release.config</File>
+    <File>Shared/Shared.DataModel/Properties/AssemblyInfo.cs</File>
+    <File>Scratch/Soapbox.version.txt</File>
+    <File>Code-o-rama/app/version.js</File>
+    <File>Soapbox/Properties/AssemblyInfo.cs</File>
+    <File>Tools/SiteBuilder/Properties/AssemblyInfo.cs</File>
+    <File>Tools/SiteBuilder/app.v${Major}-${Minor}-debug.config</File>
+    <File>Tools/SiteBuilder/app.v${Major}-${Minor}-release.config</File>
+    <File>Tools/SiteBuilder/Scripts/sbBuilder.sh</File>
+    <File>Tools/MigrateDb/Properties/AssemblyInfo.cs</File>
+    <File>Tools/MigrateDb/app.v${Major}-${Minor}-debug.config</File>
+    <File>Tools/MigrateDb/app.v${Major}-${Minor}-release.config</File>
+    <File>Tools/MigrateDb/Scripts/sbMigrate.sh</File>
+    <File>Tools/UserEditor/Properties/AssemblyInfo.cs</File>
+    <File>Tools/UserEditor/app.v${Major}-${Minor}-debug.config</File>
+    <File>Tools/UserEditor/app.v${Major}-${Minor}-release.config</File>
+    <File>Tools/UserEditor/Scripts/sbUser.sh</File>
+    <File>Tools/SiteEditor/Properties/AssemblyInfo.cs</File>
+    <File>Tools/SiteEditor/app.v${Major}-${Minor}-debug.config</File>
+    <File>Tools/SiteEditor/app.v${Major}-${Minor}-release.config</File>
+    <File>Tools/SiteEditor/Scripts/sbSite.sh</File>
+  </Files>
+  <Major>1</Major>
+  <Minor>0</Minor>
+  <Build>20414</Build>
+  <Revision>1</Revision>
+  <StartYear>2014</StartYear>
+  <Company>Jamoki</Company>
+  <Product>Soapbox Blogging Engine</Product>
+  <Copyright>Copyright (c) 2015, Jamoki</Copyright>
+</Version>

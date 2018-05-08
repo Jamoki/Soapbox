@@ -1,0 +1,14 @@
+﻿# Example configuration file
+
+Sites: 
+[
+	{ 
+		ServiceUrl: "http://localhost:1360",
+		SiteId: "$xxx",
+		Name: Test Site,
+		ShortName: test,
+		RootUrl: "http://localhost:4000",
+		Email: "test@testsite.net",
+		Password: "Passw0rd!"
+	}
+]

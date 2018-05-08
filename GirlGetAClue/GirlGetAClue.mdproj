@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ItemType>GenericProject</ItemType>
+    <ProjectGuid>{53C2DE34-C52F-43E8-B0D8-905A15B4209C}</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="bower.json" />
+    <None Include="gulpfile.js" />
+    <None Include="package.json" />
+    <None Include="app\404.html" />
+    <None Include="app\favicon.ico" />
+    <None Include="app\index.html" />
+    <None Include="app\version.js" />
+    <None Include="app\images\email.png" />
+    <None Include="app\images\facebook.png" />
+    <None Include="app\images\google.png" />
+    <None Include="app\images\linkedin.png" />
+    <None Include="app\images\twitter.png" />
+    <None Include="app\services\domHelper.js" />
+    <None Include="app\constants.js" />
+    <None Include="app\images\blank-gravitar.png" />
+    <None Include="app\services\dataService.js" />
+    <None Include="app\index.js" />
+    <None Include="app\index.less" />
+    <None Include="app\directives\jkHolder.js" />
+    <None Include="app\style\bootswatch.less" />
+    <None Include="app\style\select.less" />
+    <None Include="app\services\dialogs.js" />
+    <None Include="app\views\article\article.html" />
+    <None Include="app\views\article\article.js" />
+    <None Include="app\views\article\article.less" />
+    <None Include="app\views\home\home.js" />
+    <None Include="app\views\home\home.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app\" />
+    <Folder Include="app\views\" />
+    <Folder Include="app\directives\" />
+    <Folder Include="app\filters\" />
+    <Folder Include="app\style\" />
+    <Folder Include="app\views\home\" />
+  </ItemGroup>
+</Project>
